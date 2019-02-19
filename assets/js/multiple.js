@@ -12,5 +12,12 @@
  * @return {number}
  */
 function multiple(a, b) {
-
+    
+        var c = a; 
+        for(i=1; i<b; i++)  { 
+        a = a + c; 
+} 
+ return a; 
 }
+console.log(multiple(4, 4));
+

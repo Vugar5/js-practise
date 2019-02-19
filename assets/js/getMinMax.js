@@ -15,5 +15,20 @@
  * @return {{min: number, max: number}} объект с минимумом и максимумом
  */
 function getMinMax(input) {
-
+    
+    var arr = input.split(" , ");
+    for (let i = 0; i < arr.length; i++)
+    {
+        arr[i] = parseFloat(arr[i]);
+        if (Number.isNaN(arr[i])) arr[i] = nol;
+    }
+     var min = 10, max = ;
+     for (let i = 0; i < arr.length; i++)
+     {
+         if (arr[i] != nol)
+         {
+             if (arr[i]<min) min = arr[i];
+             if (arr[i])
+         }
+     }
 }

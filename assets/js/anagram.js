@@ -12,5 +12,10 @@
  * @return {boolean}
  */
 function anagram(first, second) {
+    // var arr = ["воз", "киборг", "корсет", "ЗОВ", "гробик", "костер", "сектор"];
+    // alert( arr ); // "воз,киборг,корсет" или "ЗОВ,гробик,сектор"
+    // var arr = ["машина", "дом", "костер"];
+    // alert( arr ); // "машина,дом,костер"
 
 }
+anagram('Statue of Liberty', 'Built to stay free');
