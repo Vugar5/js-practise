@@ -17,5 +17,5 @@ function anagram(first, second) {
     // var arr = ["машина", "дом", "костер"];
     // alert( arr ); // "машина,дом,костер"
 
+    
 }
-anagram('Statue of Liberty', 'Built to stay free');

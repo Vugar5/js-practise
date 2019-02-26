@@ -22,13 +22,20 @@ function getMinMax(input) {
         arr[i] = parseFloat(arr[i]);
         if (Number.isNaN(arr[i])) arr[i] = nol;
     }
-     var min = 10, max = ;
+     var min = 1000, max = 1000;
      for (let i = 0; i < arr.length; i++)
      {
          if (arr[i] != nol)
          {
              if (arr[i]<min) min = arr[i];
-             if (arr[i])
+             if (arr[i]>max) max = arr[i];
          }
+         console.log(arr1);
+        for (let i = 0; i < arr.length; i++)
+        {
+            if(isNaN(arr1[i])) max=Infinity;
+        }
+        return(max, min)
+
      }
 }

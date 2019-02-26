@@ -13,11 +13,17 @@
  */
 function multiple(a, b) {
     
-        var c = a; 
-        for(i=1; i<b; i++)  { 
-        a = a + c; 
-} 
- return a; 
+        var c = 1;
+        if(b<0);
+        {
+         b = Math.abs(b)
+         a = -a;
+        } 
+        for(i=0; i<b; i++)  
+        { 
+         c += a;
+        } 
+ return c; 
 }
-console.log(multiple(4, 4));
+console.log(multiple(4, -2));
 

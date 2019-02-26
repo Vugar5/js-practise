@@ -22,5 +22,5 @@ function capitalize(input) {
     console.log(input);
   
 }
-var input = "Карим БАТЯ";
+var input = "Mamba Men";
 console.log (capitalize(input));
