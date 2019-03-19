@@ -37,6 +37,6 @@ function anagram(first, second) {
         if (q == 1) return true;
     }
     
-    var put = "корсет", put2 = "корсет";
+    var put = "корсет", put2 = "сектор";
     console.log(anagram(put, put2));
 }
